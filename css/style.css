@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Oswald:wght@200..700&display=swap');
+
+body{
+    font-family:'Newton', static;
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+
+
+header{
+    background-color: #f69106;
+    height: 80px;
+}
+
+ul.topNav{
+    line-height: 75px;
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.topNav a{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.topNav a:hover{
+    color: #f4491b;
+    font-weight: 600;
+}
+
+.mainPicture{
+        background-image:url(../images/dutyFree.PNG);
+        background-size: cover;
+        min-height: 90vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+}
+
+h1{
+    font-family:'Montserrat', static;
+    font-weight: 800;
+    font-size: 100px;
+    color: #f69106;
+    text-align: right;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+
+.orangeLine{
+    height: 60px;
+    background-color: #f69106;
+}
+
+h2{
+    font-family:'Montserrat', static;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.container2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 450px 800px;
+    grid-template-rows: 150px 400px;
+    gap: 25px;
+    grid-row-gap: 5px;
+    margin-right: 250px;
+    padding-left: 200px;
+    margin-bottom: 120px;
+}
+
+.aboutMe{
+    margin: auto;
+    padding-top: 20px;
+    background-image: url(/images/backgroundLeft.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.rightImage{
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+.aboutMe h2{
+    color: #3a7575;
+}
+
+
+.textAboutMe{
+    grid-column: 2 ;
+    grid-row: 2;
+    align-self: center;
+}
+
+.header2{
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.myPicture{
+    margin: auto;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.graphicDesign{
+    background-color: #f69106;
+}
+
+.header3{
+    color: whitesmoke;
+    padding-top: 120px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.icons{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    padding-bottom: 95px;
+}
+
+.imgAndName h3{
+    text-align: center;
+    padding-top: 20px;
+    color: whitesmoke;
+    align-items: center;
+}
+
+h3{
+    font-family:'Montserrat', static;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.GDText{
+    padding: 20px 450px 25px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 500;
+    background-color: #ec7a00;
+}
+
+.posters{
+    padding: 75px 150px 80px;
+    display: flex;
+    color: whitesmoke;
+    gap: 35px;
+    align-self: center;
+}
+
+.posters img{
+    margin: auto;
+}
+
+.posters h3{
+    padding-top: 20px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.header3D{
+    color: #3a7575;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.wireFrames{
+    display: flex;
+    gap: 20px;
+    padding-top: 45px;
+    justify-content: center;
+}
+
+.closeUps{
+    color: #3a7575;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blenderTalk{
+    text-align: center;
+    padding: 35px 250px 0px;;
+}
+
+.renders{
+    padding: 100px 250px 80px;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    gap: 30px;
+}
+
+.render{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.modeling{
+    margin: auto;
+    padding-top: 20px;
+    background-image: url(/images/background2Left.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.rightImage2{
+    position:absolute;
+    right:0;
+    top: 350px;
+}
+
+.traditional{
+    background-color: #3a7575;
+    color: whitesmoke;
+    padding-top: 120px;
+}
+
+.tradText{
+    padding: 50px 350px 30px;
+    text-align: center;
+}
+
+.tradHeader{
+    text-align: center;
+}
+
+.painting, .drawing{
+    padding-left: 150px;
+    padding-top: 35px;
+}
+
+.paintImg{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.drawImg{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4 1fr);
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.figura1{
+    grid-column: 1 ;
+    align-self: center;
+}
+
+.figura2{
+    grid-column: 2 ;
+    align-self: center;
+}
+
+.figura3{
+    grid-column: 3 ;
+    align-self: center;
+}
+
+.figura4{
+    grid-column: 4 ;
+    align-self: center;
+}
+
+footer{
+    background-color: #f69106;
+    height: 35px;
+    color: whitesmoke;
+    text-align: center;
+}
