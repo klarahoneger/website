@@ -79,7 +79,7 @@ h2{
 .aboutMe{
     margin: auto;
     padding-top: 20px;
-    background-image: url(images/backgroundLeft.png);
+    background-image: url(../images/backgroundLeft.png);
     background-repeat: no-repeat;
     position: relative;
 }
